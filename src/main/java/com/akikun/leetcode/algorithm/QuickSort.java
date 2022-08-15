@@ -4,6 +4,8 @@ import com.akikun.leetcode.commons.PrintUtils;
 
 /**
  * Quick Sort
+ *
+ * @author Li Junqiu
  */
 public class QuickSort {
 
