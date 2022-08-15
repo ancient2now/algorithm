@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.stream.Collectors;
 
-public class MyArrays {
+public class ArrayUtils {
 
     /**
      * 打印数组
@@ -13,7 +13,7 @@ public class MyArrays {
      * @param <E> 数组元素的类型
      */
     public static <E> void print(E[] arr) {
-        String arrStr = java.util.Arrays.stream(arr)
+        String arrStr = Arrays.stream(arr)
                 .map(Object::toString)
                 .collect(Collectors.joining(", ", "[", "]"));
         System.out.println("length:" + arr.length + "; values:" + arrStr);

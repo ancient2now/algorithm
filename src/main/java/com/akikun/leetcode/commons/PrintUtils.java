@@ -24,7 +24,7 @@ public class PrintUtils {
     }
 
     public static <E> void printArray(E[] arr) {
-        MyArrays.print(arr);
+        ArrayUtils.print(arr);
     }
 
     public static void printArray(int[] arr) {
@@ -35,6 +35,6 @@ public class PrintUtils {
     }
 
     public static <E> void printList(List<E> list) {
-        MyLists.print(list);
+        ListUtils.print(list);
     }
 }

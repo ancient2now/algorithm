@@ -1,6 +1,6 @@
 package com.akikun.leetcode;
 
-import com.akikun.leetcode.commons.MyArrays;
+import com.akikun.leetcode.commons.ArrayUtils;
 import com.akikun.leetcode.commons.PrintUtils;
 
 import java.util.Arrays;
@@ -9,7 +9,7 @@ public class _00036_3SumClosest {
 
     public static void main(String[] args) {
         _00036_3SumClosest test = new _00036_3SumClosest();
-        int[] nums = MyArrays.random(100, 10000);
+        int[] nums = ArrayUtils.random(100, 10000);
         PrintUtils.printArray(nums);
         int ans = test.threeSumClosest(nums, 500);
         PrintUtils.printAnswer(ans);

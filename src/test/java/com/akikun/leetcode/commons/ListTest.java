@@ -8,13 +8,13 @@ public class ListTest {
 
     @Test
     public void testOf() {
-        List<String> list = MyLists.of("hello", "", "world");
-        MyLists.print(list);
+        List<String> list = ListUtils.of("hello", "", "world");
+        ListUtils.print(list);
     }
 
     @Test
     public void testFrom() {
-        List<String> list = MyLists.from("[\"cats\", \"dog\", \"sand\", \"and\", \"cat\", \"\"]");
-        MyLists.print(list);
+        List<String> list = ListUtils.from("[\"cats\", \"dog\", \"sand\", \"and\", \"cat\", \"\"]");
+        ListUtils.print(list);
     }
 }
