@@ -4,11 +4,18 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.akikun</groupId>
-  <artifactId>leetcode</artifactId>
+  <groupId>com.akikun.algorithm</groupId>
+  <artifactId>algorithm-all</artifactId>
   <version>1.0.0-SNAPSHOT</version>
+  <modules>
+    <module>algorithm</module>
+    <module>leetcode</module>
+    <module>common</module>
+  </modules>
 
-  <name>leetcode</name>
+  <packaging>pom</packaging>
+
+  <name>algorithm-all</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
