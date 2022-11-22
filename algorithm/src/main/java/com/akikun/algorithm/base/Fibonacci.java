@@ -1,6 +1,10 @@
 package com.akikun.algorithm.base;
 
 /**
+ * 两种算斐波那契数列的方法
+ *
+ * 递归和迭代
+ *
  * the two solutions of Fibonacci
  */
 public class Fibonacci {

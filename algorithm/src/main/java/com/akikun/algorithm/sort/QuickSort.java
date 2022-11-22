@@ -3,7 +3,8 @@ package com.akikun.algorithm.sort;
 import com.akikun.algorithm.common.PrintUtils;
 
 /**
- * Quick Sort
+ *
+ * 快速排序（Quick Sort）
  *
  * @author Li Junqiu
  */
