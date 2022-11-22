@@ -1,6 +1,9 @@
 package com.akikun.algorithm.sort;
 
+import com.akikun.algorithm.common.ArrayUtils;
 import com.akikun.algorithm.common.PrintUtils;
+
+import java.util.Arrays;
 
 /**
  *
@@ -11,9 +14,13 @@ import com.akikun.algorithm.common.PrintUtils;
 public class QuickSort {
 
     public static void main(String[] args) {
-        int[] arr = {3,3,3,7,9,122344,4656,34,34,4656,5,6,7,8,9,343,57765,23,12321,10};
+        int[] arr = ArrayUtils.randomRange(1000);
+        int[] target = Arrays.copyOf(arr, arr.length);
+
         new QuickSort().quickSort(arr);
-        PrintUtils.printArray(arr);
+        Arrays.sort(target);
+
+        System.err.println(Arrays.equals(arr, target));
     }
 
     public void quickSort(int[] arr) {

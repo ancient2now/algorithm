@@ -60,7 +60,7 @@ public class ArrayUtils {
      */
     public static int[] random(int len, int round) {
         if (round <= 0) {
-            throw new IllegalArgumentException("bound must be positive");
+            throw new IllegalArgumentException("round must be positive");
         }
 
         int[] arr = new int[len];
@@ -68,6 +68,29 @@ public class ArrayUtils {
         for (int i = 0; i < len; ++i) {
             arr[i] = random.nextInt(round);
         }
+        return arr;
+    }
+
+    public static int[] randomRange(int len) {
+        if (len <= 0) {
+            throw new IllegalArgumentException("len must be positive");
+        }
+
+        int[] arr = new int[len];
+        for (int i = 0; i < len; ++i) {
+            arr[i] = i;
+        }
+
+        Random random = new Random();
+        for (int i = 0; i < len; ++i) {
+            int a = random.nextInt(len);
+            int b = random.nextInt(len);
+
+            int temp = arr[a];
+            arr[a] = arr[b];
+            arr[b] = temp;
+        }
+
         return arr;
     }
 
