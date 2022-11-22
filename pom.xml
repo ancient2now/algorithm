@@ -11,6 +11,7 @@
     <module>algorithm</module>
     <module>leetcode</module>
     <module>common</module>
+    <module>nowcoder</module>
   </modules>
 
   <packaging>pom</packaging>

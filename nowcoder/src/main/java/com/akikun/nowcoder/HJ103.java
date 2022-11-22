@@ -1,4 +1,4 @@
-package com.akikun.leetcode.nowcoder;
+package com.akikun.nowcoder;
 
 import java.util.Scanner;
 
