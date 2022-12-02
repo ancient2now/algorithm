@@ -7,5 +7,5 @@ package com.akikun.algorithm.common.struct;
  */
 public class PrefixTree {
 
-    // TODO
+    // TODO 实现前缀树
 }

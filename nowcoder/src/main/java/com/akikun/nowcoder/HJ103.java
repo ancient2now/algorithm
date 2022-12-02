@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class HJ103 {
 
-    // TODO https://www.nowcoder.com/practice/24e6243b9f0446b081b1d6d32f2aa3aa?tpId=37&&tqId=21326&rp=1&ru=/ta/huawei&qru=/ta/huawei/question-ranking
+    // https://www.nowcoder.com/practice/24e6243b9f0446b081b1d6d32f2aa3aa?tpId=37&&tqId=21326&rp=1&ru=/ta/huawei&qru=/ta/huawei/question-ranking
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         int len = Integer.parseInt(scan.nextLine());
