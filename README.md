@@ -1,3 +1,75 @@
+# 数据结构与算法
+
+按照我自己学习时的理解难易，将算法分为初级、中级、高级这几个难度。
+
+学习老师：左神。
+
+`初级（简单、低中等）：` 稍微学习，比如听一遍就会了，最多学习不超过三遍；主要是那种需要巧妙的方法，不学习不会，一学醍醐灌顶  
+`中级（高中等、低困难）：` 需要多理解几遍，需要多花点时间理解，琢磨  
+`高级（高困难）：` 就是那种难的、复杂的算法 
+
+`【例】`代表的是练习的算法题，算法题描述写在java文件的注释里
+
+### 初级算法
+
+* 迭代和递归
+* 异或
+* 链表
+  - 快慢指针
+* [排序](algorithm/src/main/java/com/akikun/algorithm/sort)
+  - 冒泡排序
+  - 插入排序
+* 二叉树
+  - 先序、中序、后序遍历 
+  - 判断二叉树是否是***树
+* 前缀树
+
+### 中级算法
+
+* 递归
+  - 【例】汉诺塔
+  - 【例】打印字符串的所有子字符串
+  - 【例】打印字符串的排列组合
+  - 【例】不使用额外空间，反转一个栈
+  
+* [排序](algorithm/src/main/java/com/akikun/algorithm/sort)
+    - [基数排序](algorithm/src/main/java/com/akikun/algorithm/sort/RadixSort.java)
+    - [堆排序](algorithm/src/main/java/com/akikun/algorithm/sort/HeapSort.java)
+    - [快速排序](algorithm/src/main/java/com/akikun/algorithm/sort/QuickSort.java)
+    - 合并排序
+  
+* 图
+  - 最小生成树（无向图的最短路径算法）
+    - Kruskal算法
+    - Prim算法
+  - 有向图的最短路径算法
+    - Dijkstra算法（迪杰斯特拉）
+    - floyd算法
+  
+* 并查集
+  
+* 从暴力递归到动态规划（递归 -> 记忆化搜索 -> 真正的动态规划）   
+  *记忆化搜索 = 从顶向下的动态规划*
+  - 【例】机器人从原始位置到目标位置移动路径问题
+  - 【例】甲、乙两个玩家拿数字博弈问题
+  - 【例】经典的背包问题
+
+### 高级算法
+
+### 其他、冷门、技巧
+
+* 置换环
+
+
+# 收藏并推荐的算法题
+
+强烈推荐的算法题，或者是具有启发性的算法题；从容易到难排序
+
+| No. | Problems | Solutions | Tag |
+| ------ | ------ | ------ | ------ |
+| 32  | [Longest Valid Parentheses](https://leetcode-cn.com/problems/longest-valid-parentheses/) | [Java](leetcode/src/main/java/com/akikun/leetcode/_00032_LongestValidParentheses.java) | DP, Stack |
+
+
 # leetcode
 
 #### 推荐
@@ -68,3 +140,6 @@
 | Problems | Solutions | Completion Date |
 | ------ | ------ | ------ |
 | [岛屿的最大面积](https://leetcode-cn.com/explore/interview/card/bytedance/243/array-and-sorting/1034/) | [Java](leetcode/src/main/java/com/akikun/leetcode/bytedance/MaxAreaOfIsland.java) | 2020.06.30 |
+
+# 牛客网
+

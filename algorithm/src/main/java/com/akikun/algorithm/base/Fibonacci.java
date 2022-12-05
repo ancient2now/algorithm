@@ -21,10 +21,14 @@ public class Fibonacci {
         end = System.currentTimeMillis();
         System.err.println("iteration answer: " + ans2 +", time: " + (end - start));
 
-        start = System.currentTimeMillis();
-        ans1 = test.recursion(n);
-        end = System.currentTimeMillis();
-        System.err.println("recursion answer: " + ans1 +", time: " + (end - start));
+        // 如果想尝试递归方式，取消下面的注释
+//        start = System.currentTimeMillis();
+//        ans1 = test.recursion(n);
+//        end = System.currentTimeMillis();
+//        System.err.println("recursion answer: " + ans1 +", time: " + (end - start));
+
+        int ans3 = test.dp(n);
+        System.err.println("DP answer: " + ans3);
     }
 
     int recursion(int n) {
@@ -48,6 +52,18 @@ public class Fibonacci {
             b = temp;
         }
         return b;
+    }
+
+    int dp(int n) {
+        if (n < 3) {
+            return 1;
+        }
+        int[] dp = new int[n + 1];
+        dp[1] = dp[2] = 1;
+        for (int i = 3; i <= n; ++i) {
+            dp[i] = dp[i - 1] + dp[i - 2];
+        }
+        return dp[n];
     }
 
 }
