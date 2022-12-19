@@ -5,7 +5,7 @@ package com.akikun.algorithm.common.struct;
  *
  * @author 李俊秋(龙泽)
  */
-public class PrefixTree {
+public class TrieTree {
 
     // TODO 实现前缀树
 }
